@@ -1,0 +1,15 @@
+# ---------------------------------------------------------------------------
+# sheets_connector / app.py — dependências
+# ---------------------------------------------------------------------------
+
+# Interface
+streamlit>=1.32,<2
+
+# Google Sheets
+gspread>=6.0,<7
+google-auth>=2.30
+google-auth-oauthlib>=1.2
+requests>=2.31
+
+# Dados
+pandas>=2.0
